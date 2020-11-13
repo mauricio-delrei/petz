@@ -16,6 +16,8 @@ Para compilar a aplicação:
 mvn test
 mvn spring-boot:run
 
+#====================================================================================================
+
 Verbos Http da App Cliente:
 
 GET 
@@ -50,6 +52,7 @@ http://localhost:8081/clientes/
 }
 DELETE
 http://localhost:8081/clientes/{id} 
+
 #====================================================================================================
 Verbos Http da App Pet:
 
@@ -82,7 +85,7 @@ http://localhost:8081/pets/
 DELETE
 http://localhost:8081/pets/{id}   
 #======================================================================================================
-Obs: Pelo tempo parco e por outros compromissos, faltou :
+Obs: Pelo tempo parco e por outros compromissos, faltou implementar :
 - Cache
 - Security
 - Testes Com Junit5
